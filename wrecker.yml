@@ -36,8 +36,7 @@ build:
     - script:
         name: go build
         code: |
-          go build ./...
-
+          go install hello-app
     # Test the project
     - script:
         name: go test
